@@ -1,0 +1,9 @@
+{
+  "name": "bun-resendmail",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "resend": "^2.0.0"
+  }
+}
