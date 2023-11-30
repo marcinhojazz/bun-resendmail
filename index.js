@@ -7,8 +7,8 @@ const resend = new Resend(apiKey);
 resend.emails.send({
   from: 'onboarding@resend.dev',
   to: 'marcinhojazz@gmail.com',
-  subject: 'Hello World',
-  html: '<p>Email de teste com Resend <strong>first email</strong>!</p>'
+  subject: 'Enviando Emails com Resend + BUN',
+  html: '<p>Email de teste com<strong>Resend + BUN</strong>!</p>'
 })
 .then(response => {
   console.log(response);
